@@ -30,7 +30,7 @@ public class PlayerShooting : MonoBehaviour
 
     void Update ()
     {
-        timer += Time.deltaTime;
+        timer += Time.deltaTime; //60fps frame per second 1/60=0.0166666
 
 		if(Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0)
         {
