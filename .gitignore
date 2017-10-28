@@ -2,3 +2,5 @@
 *.sln
 Library/
 Temp/
+.vs/config/applicationhost.config
+.vs/Nightmare/v14/.suo
